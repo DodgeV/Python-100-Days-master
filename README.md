@@ -1,53 +1,6 @@
-## Python - 100天从新手到大师
+🌍我的python笔记
 
-> 作者：骆昊
->
-> 最近有很多想学习Python的小伙伴陆陆续续加入我们的交流群，目前我们的交流群人数已经超过一万人。我们的目标是打造一个优质的Python交流社区，一方面为想学习Python的初学者扫平入门过程中的重重障碍；另一方为新入行的开发者提供问道的途径，帮助他们迅速成长为优秀的职业人；此外，有经验的开发者可以利用这个平台把自己的工作经验无偿分享或有偿提供出来，让大家都能够得到职业技能以及综合素质的全面提升。之前的公开课和线下技术交流活动因为工作的关系荒废了一段时间了，但是各位小伙伴仍然活跃在交流群并一如既往的支持我们，在此向大家表示感谢。近期开始持续更新前15天和最后10天的内容，前15天是写给初学者的，我希望把上手的难度进一步降低，例子程序更加简单清晰；最后10天是Python项目实战和面试相关的东西，我希望内容更详实和完整，尤其是第100天的面试题部分；创作不易，感谢大家的打赏支持，这些钱不会用于购买咖啡而是通过腾讯公益平台捐赠给需要帮助的人（[点击](./更新日志.md)了解捐赠情况）。
-
-![](./res/python-qq-group.png)
-
-### Python应用领域和就业形势分析
-
-简单的说，Python是一个“优雅”、“明确”、“简单”的编程语言。
-
- - 学习曲线低，非专业人士也能上手
- - 开源系统，拥有强大的生态圈
- - 解释型语言，完美的平台可移植性
- - 支持面向对象和函数式编程
- - 能够通过调用C/C++代码扩展功能
- - 代码规范程度高，可读性强
-
-目前几个比较流行的领域，Python都有用武之地。
-
- - 云基础设施 - Python / Java / Go
- - DevOps - Python / Shell / Ruby / Go
- - 网络爬虫 - Python / PHP / C++
- - 数据分析挖掘 - Python / R / Scala / Matlab
- - 机器学习 - Python / R / Java / Lisp
-
-作为一名Python开发者，主要的就业领域包括：
-
-- Python服务器后台开发 / 游戏服务器开发 / 数据接口开发工程师
-- Python自动化运维工程师
-- Python数据分析 / 数据可视化 / 大数据工程师
-- Python爬虫工程师
-- Python聊天机器人开发 / 图像识别和视觉算法 / 深度学习工程师
-
-下图显示了主要城市Python招聘需求量及薪资待遇排行榜（截止到2018年5月）。
-
-![Python招聘需求及薪资待遇Top 10](./res/python-top-10.png)
-
-![](./res/python-bj-salary.png)
-
-![](./res/python-salary-chengdu.png)
-
-给初学者的几个建议：
-
-- Make English as your working language.
-- Practice makes perfect.
-- All experience comes from mistakes.
-- Don't be one of the leeches.
-- Either stand out or kicked out.
+# 100天学习python笔记
 
 ### Day01~15 - [Python语言基础](./Day01-15)
 
@@ -112,16 +65,16 @@
 #### Day08 - [面向对象编程基础](./Day01-15/08.面向对象编程基础.md)
 
 - 类和对象 - 什么是类 / 什么是对象 / 面向对象其他相关概念
-- 定义类 - 基本结构 / 属性和方法 / 构造器 / 析构器 / \_\_str\_\_方法
+- 定义类 - 基本结构 / 属性和方法 / 构造器 / 析构器 / `__str__`方法
 - 使用对象 - 创建对象 / 给对象发消息
 - 面向对象的四大支柱 - 抽象 / 封装 / 继承 / 多态
 - 基础练习 - 定义学生类 / 定义时钟类 / 定义图形类 / 定义汽车类
 
 #### Day09 - [面向对象进阶](./Day01-15/09.面向对象进阶.md)
 
-- 属性 - 类属性 / 实例属性 / 属性访问器 / 属性修改器 / 属性删除器 / 使用\_\_slots\_\_
+- 属性 - 类属性 / 实例属性 / 属性访问器 / 属性修改器 / 属性删除器 / 使用__slots__
 - 类中的方法 - 实例方法 / 类方法 / 静态方法
-- 运算符重载 - \_\_add\_\_ / \_\_sub\_\_ / \_\_or\_\_ /\_\_getitem\_\_ / \_\_setitem\_\_ / \_\_len\_\_ / \_\_repr\_\_ / \_\_gt\_\_ / \_\_lt\_\_ / \_\_le\_\_ / \_\_ge\_\_ / \_\_eq\_\_ / \_\_ne\_\_ / \_\_contains\_\_ 
+- 运算符重载 - __add__ / __sub__ / __or__ /__getitem__ / __setitem__ / __len__ / __repr__ / __gt__ / __lt__ / __le__ / __ge__ / __eq__ / __ne__ / __contains__ 
 - 类(的对象)之间的关系 - 关联 / 继承 / 依赖
 - 继承和多态 - 什么是继承 / 继承的语法 / 调用父类方法 / 方法重写 / 类型判定 / 多重继承 / 菱形继承(钻石继承)和C3算法
 - 综合案例 - 工资结算系统 / 图书自动折扣系统 / 自定义分数类
@@ -168,7 +121,7 @@
 - 读写Excel文件 - xlrd模块 / xlwt模块
 - 生成PDF文件 - pypdf2模块 / reportlab模块
 
-### Day16~Day20 - [Python语言进阶 ](./Day16-20/16-20.Python语言进阶.md)
+### Day16~Day20 - [Python语言进阶](./Day16-20/16-20.Python语言进阶.md)
 
 - 常用数据结构
 - 函数的高级用法 - “一等公民” / 高阶函数 / Lambda函数 / 作用域和闭包 / 装饰器
@@ -219,48 +172,47 @@
 
 ### Day41~55 - [实战Django](./Day41-55)
 
-#### Day41 - [快速上手](./Day41-55/41.快速上手.md)
+#### Day41 - [Django快速上手](./Day41-55/41.Django快速上手.md)
 
-- Web应用工作原理和HTTP协议
+- Web应用工作机制
+- HTTP请求和响应
 - Django框架概述
 - 5分钟快速上手
-- 使用视图模板
 
 #### Day42 - [深入模型](./Day41-55/42.深入模型.md)
 
 - 关系型数据库配置
-- 管理后台的使用
 - 使用ORM完成对模型的CRUD操作
+- 管理后台的使用
 - Django模型最佳实践
 - 模型定义参考
 
 #### Day43 - [静态资源和Ajax请求](./Day41-55/43.静态资源和Ajax请求.md)
 
 - 加载静态资源
-- 用Ajax请求获取数据
+- Ajax概述
+- 用Ajax实现投票功能
 
-#### Day44 - [表单的应用](./Day41-55/44.表单的应用.md)
-
-- 表单和表单控件
-- 跨站请求伪造和CSRF令牌
-- Form和ModelForm
-- 表单验证
-
-#### Day45 - [Cookie和Session](./Day41-55/45.Cookie和Session.md)
+#### Day44 - [Cookie和Session](./Day41-55/44.Cookie和Session.md)
 
 - 实现用户跟踪
 - cookie和session的关系
 - Django框架对session的支持
 - 视图函数中的cookie读写操作
 
-#### Day46 - [报表和日志](./Day41-55/46.报表和日志.md)
+#### Day45 - [报表和日志](./Day41-55/45.制作报表.md)
 
 - 通过HttpResponse修改响应头
 - 使用StreamingHttpResponse处理大文件
 - 使用xlwt生成Excel报表
 - 使用reportlab生成PDF报表
 - 使用ECharts生成前端图表
-- 配置日志和Django-Debug-Toolbar
+
+#### Day46 - [日志和调试工具栏](./Day41-55/46.日志和调试工具栏.md)
+
+- 配置日志
+- 配置Django-Debug-Toolbar
+- 优化ORM代码
 
 #### Day47 - [中间件的应用](./Day41-55/47.中间件的应用.md)
 
@@ -286,27 +238,21 @@
 - 使用装饰器实现页面缓存
 - 为数据接口提供缓存服务
 
-#### Day52 - [文件上传和富文本编辑](./Day41-55/52.文件上传和富文本编辑器.md)
+#### Day52 - [文件上传](./Day41-55/52.文件上传.md)
 
 - 文件上传表单控件和图片文件预览
 - 服务器端如何处理上传的文件
-- 富文本编辑器概述
-- wangEditor的使用
 
-#### Day53 - [短信和邮件](./Day41-55/53.短信和邮件.md)
-
-- 常用短信网关平台介绍
-- 使用螺丝帽发送短信
-- Django框架对邮件服务的支持
-
-#### Day54 - [异步任务和定时任务](./Day41-55/54.异步任务和定时任务.md)
+#### Day53 - [异步任务和定时任务](./Day41-55/53.异步任务和定时任务.md)
 
 - 网站优化第二定律
 - 配置消息队列服务
 - 在项目中使用celery实现任务异步化
 - 在项目中使用celery实现定时任务
 
-#### Day55 - [单元测试和项目上线](./Day41-55/55.单元测试和项目上线.md)
+#### Day54 - [单元测试](./Day41-55/54.单元测试.md)
+
+#### Day55 - [项目上线](./Day41-55/55.项目上线.md)
 
 - Python中的单元测试
 - Django框架对单元测试的支持
@@ -314,15 +260,16 @@
 - 配置和使用uWSGI
 - 动静分离和Nginx配置
 - 配置HTTPS
+- 配置域名解析
 
 
 ### Day56~60 - [实战Flask](./Day56-65)
 
-#### Day56 - [Flask入门](./Day56-60/56.Flask入门.md) 
+#### Day56 - [Flask入门](./Day56-60/56.Flask入门.md)
 
-#### Day57 - [模板的使用](./Day56-60/57.模板的使用.md) 
+#### Day57 - [模板的使用](./Day56-60/57.模板的使用.md)
 
-#### Day58 - [表单的处理](./Day56-60/58.表单的处理.md) 
+#### Day58 - [表单的处理](./Day56-60/58.表单的处理.md)
 
 #### Day59 - [数据库操作](./Day56-60/59.数据库操作.md)
 
@@ -421,7 +368,9 @@
 - 爬取房地产行业数据
 - 爬取二手车交易平台数据
 
-### Day76~90 - [数据处理和机器学习](./Day76-90)
+### Day76~90 - [数据分析和机器学习](./Day76-90)
+
+> **温馨提示**：数据分析和机器学习的内容在code文件夹中，是用jupyter notebook书写的代码和笔记，需要先启动jupyter notebook再打开对应的文件进行学习。2020年会持续补充相关文档，希望大家持续关注。
 
 #### Day76 - [机器学习基础](./Day76-90/76.机器学习基础.md)
 
@@ -451,7 +400,7 @@
 
 #### Day89 - [Tensorflow实战](./Day76-90/89.Tensorflow实战.md)
 
-#### Day90 - [推荐系统](./Day76-90/90.推荐系统.md)
+#### Day90 - [推荐系统实战](./Day76-90/90.推荐系统实战.md)
 
 ### Day91~100 - [团队项目开发](./Day91-100)
 
@@ -461,16 +410,19 @@
    - 经典过程模型（瀑布模型）
      - 可行性分析（研究做还是不做），输出《可行性分析报告》。
      - 需求分析（研究做什么），输出《需求规格说明书》和产品界面原型图。
-     - 概要设计和详细设计，输出概念模型图、物理模型图、类图、时序图等。
+     - 概要设计和详细设计，输出概念模型图（ER图）、物理模型图、类图、时序图等。
      - 编码 / 测试。
      - 上线 / 维护。
+
+     瀑布模型最大的缺点是无法拥抱需求变化，整套流程结束后才能看到产品，团队士气低落。
    - 敏捷开发（Scrum）- 产品所有者、Scrum Master、研发人员 - Sprint
      - 产品的Backlog（用户故事、产品原型）。
      - 计划会议（评估和预算）。
      - 日常开发（站立会议、番茄工作法、结对编程、测试先行、代码重构……）。
      - 修复bug（问题描述、重现步骤、测试人员、被指派人）。
-     - 评审会议（Showcase）。
-     - 回顾会议（当前周期做得好和不好的地方）。
+     - 发布版本。
+     - 评审会议（Showcase，用户需要参与）。
+     - 回顾会议（对当前迭代周期做一个总结）。
 
      > 补充：敏捷软件开发宣言
      >
@@ -487,13 +439,13 @@
 
      >  敏捷团队通常人数为8-10人。
 
-     >  工作量估算：将开发任务量化，包括原型、Logo设计、UI设计、前端开发等，尽量把每个工作分解到最小任务量，最小任务量标准为工作时间不能超过两天，然后估算总体项目时间。把每个任务都贴在白板上面，白板上分三部分：to do（待完成）、in progress（进行中）和done（已完成）。
+     >  工作量估算：将开发任务量化，包括原型、Logo设计、UI设计、前端开发等，尽量把每个工作分解到最小任务量，最小任务量标准为工作时间不能超过两天，然后估算总体项目时间。把每个任务都贴在看板上面，看板上分三部分：to do（待完成）、in progress（进行中）和done（已完成）。
 
 2. 项目团队组建
 
    - 团队的构成和角色
 
-     > 说明：谢谢付祥英女士绘制了下面这张精美的公司组织架构图。
+     > 说明：谢谢**付祥英**女士帮助我绘制了下面这张精美的公司组织架构图。
 
      ![company_architecture](./res/company_architecture.png)
 
@@ -515,7 +467,7 @@
    - 敏捷闭环工具：[禅道](https://www.zentao.net/)、[JIRA](https://www.atlassian.com/software/jira/features)
    - 持续集成：[Jenkins](https://jenkins.io/)、[Travis-CI](https://travis-ci.org/)
 
-   请参考[《团队项目开发》](Day91-100/团队项目开发.md)。
+   请参考[《团队项目开发的问题和解决方案》](Day91-100/91.团队项目开发的问题和解决方案.md)。
 
 ##### 项目选题和理解业务
 
@@ -567,14 +519,14 @@
     python manage.py inspectdb > app/models.py
     ```
 
-#### 第92天：[使用Docker部署应用](./Day91-100/92.使用Docker部署应用.md)
+#### 第92天：[Docker容器详解](./Day91-100/92.Docker容器详解.md)
 
 1. Docker简介
 2. 安装Docker
 3. 使用Docker创建容器（Nginx、MySQL、Redis、Gitlab、Jenkins）
 4. 构建Docker镜像（Dockerfile的编写和相关指令）
 5. 容器编排（Docker-compose）
-6. 集群管理
+6. 集群管理（Kubernetes）
 
 #### 第93天：[MySQL性能优化](./Day91-100/93.MySQL性能优化.md)
 
@@ -664,3 +616,97 @@
 
 #### 第100天：[Python面试题集](./Day91-100/100.Python面试题集.md)
 
+### [番外篇](./extra)
+
+1. Python面试题汇总
+2. 使用Hexo搭建自己的博客
+3. 用函数还是用复杂的表达式
+4. 租房网项目接口文档
+5. 那些年我们踩过的那些坑
+6. 一个小例子助你彻底理解协程
+7. 我为什么选择了Python
+8. 知乎问题回答
+9. 英语面试
+10. PEP8风格指南
+11. Python编程惯例
+12. Python之禅
+13. 玩转PyCharm
+14. 常用库整理
+
+# mypractice
+
++ [100 classic examples of python](./mypractice/python_100_classic_examples):尤其需要注意37/39/67/68/69/80/83/84/85
++ [The Big Book of Small Python Projects](https://inventwithpython.com/bigbookpython/)&[code](./mypractice/BigBookPythonResources)
++ [Python 练习册-每天一点小练习-25题](https://github.com/Yixiaohan/show-me-the-code)&[Reference](https://github.com/Show-Me-the-Code/python)&[mycode](./mypractice/Python_25_exercises)
++ [python百道面试题](https://github.com/kenwoodjw/python_interview_question)
++ [pythonchallenge](http://www.pythonchallenge.com/)
+
+# sets
+
+- [python-patterns](https://github.com/faif/python-patterns)
+- [python-cheatsheet备忘录](https://github.com/gto76/python-cheatsheet)
+- [Crossin的编程教室-学习资源+项目实战](https://crossincode.com/home/)
+- [Crossin's python初学常见问题汇总 ](https://mp.weixin.qq.com/s/pC_r4VliHrn9WEVFEnVjSQ)
+- [Python算法学习与机器学习算法资源汇总](https://mp.weixin.qq.com/s/nsOt-uLJBegehVkGigmuow)
+- [倾心整理的Python量化资源大合集](https://mp.weixin.qq.com/s?__biz=MzUyMDk1MDY2MQ==&mid=2247484656&idx=1&sn=7692a9c0f342e59e6c62c9ce3d003d94&chksm=f9e3c21ace944b0c784f3a1a7660b6cb2e0f9b31a9912869a03efc7a55ca0249d7bd27acd92d&scene=0&xtrack=1#rd)
+- [Python量化从入门到精通 ](https://mp.weixin.qq.com/s?__biz=MzUyMDk1MDY2MQ==&mid=2247484258&idx=1&sn=5daf786c06cde32d6bbd0b0ffb50e871&chksm=f9e3c588ce944c9e763f9110f7c8fc0b800ab26d8ae8598c6310f0220b80767d1f58a1d78381&mpshare=1&scene=1&srcid=1028fiZEC6bx13VIT62D8GnB&sharer_sharetime=1679190241056&sharer_shareid=ccb3982f74463770fa13a7e792141680#rd)
+
+# tutorials
+
+- [微软官方教程c9-python-getting-started](https://github.com/microsoft/c9-python-getting-started)
+- [List of Algorithms implemented in Python](https://github.com/TheAlgorithms/Python/blob/master/DIRECTORY.md)
+- [pcc--Resources for Python Crash Course, from No Starch Press.](https://github.com/ehmatthes/pcc)
+- [pycrumbs--Bits and bytes of Python from the Internet ](https://github.com/kirang89/pycrumbs)
+- [pythondoc](http://www.pythondoc.com/)
+- [DataSciencePython](https://github.com/ujjwalkarn/DataSciencePython)
+- [python爬虫教程](https://github.com/Kr1s77/Python-crawler-tutorial-starts-from-zero)
+- [python简单crawler教程](https://github.com/Kr1s77/awesome-python-login-model)
+- [python爬虫教程系列](https://github.com/wistbean/learn_python3_spider)
+- [web.py 0.3 教程](https://blog.csdn.net/c9cad/article/details/4089643)
+- [【笔记】17 幅思维导图：Python 核心知识体系](https://woaielf.github.io/2018/04/10/python-basic/)
+- [12个案例教你用Python玩转数据可视化](https://mp.weixin.qq.com/s/BqQoaWqprVlZf9y0IXJrdA)
+- [python3.0的18张思维导图核心知识-数林觅风](./res/v3.0-ZOE-SLMF)
+
+# books
+
+- [参考书籍清单](./Python参考书籍)
+- [free-programming-books-zh_CN for Python](https://github.com/justjavac/free-programming-books-zh_CN/blob/master/README.md#python)
+- [Official doc](https://docs.python.org/3/)
+- [用python进行科学计算](https://github.com/DodgeV/demo1/blob/master/package_DA/%E7%94%A8Python%E5%81%9A%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97.pdf)
+- [Python for Data Analysis](https://github.com/wesm/pydata-book)[视频](https://www.bilibili.com/video/av80675432)
+- [菜鸟教程--python](https://www.runoob.com/python3/python3-stdlib.html)
+- [廖雪峰python](https://www.liaoxuefeng.com/wiki/1016959663602400)
+- [scrapy 白皮书](https://scrapy-cookbook.readthedocs.io/zh_CN/latest/scrapy-01.html#scrapy)
+
+# videos
+
+- [python就业形势](https://www.bilibili.com/video/BV1Y7411v7T1?p=87)&[对应ppt](https://github.com/DodgeV/learning-programming/blob/master/books/python/python%E5%B0%B1%E4%B8%9A%E5%BD%A2%E5%8A%BF.pptx)
+- [Python3 入门与进阶](https://www.bilibili.com/video/BV1At4y1i76x)&[对应源码](https://github.com/DodgeV/learning-programming/tree/master/books/python/Python3%20%E5%85%A5%E9%97%A8%E4%B8%8E%E8%BF%9B%E9%98%B6)
+- [python从入门到实践--bilibili](https://www.bilibili.com/video/BV1Y7411v7T1)
+- [零基础入门学习Python(小甲鱼)](https://www.bilibili.com/video/BV1y7411d7rW)&[全套源码课件](https://github.com/DodgeV/learning-programming/tree/master/books/python/%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0Python(%E5%B0%8F%E7%94%B2%E9%B1%BC)%E5%85%A8%E5%A5%97%E6%BA%90%E7%A0%81%E8%AF%BE%E4%BB%B6)
+- [千锋Python基础视频&对应资料](https://github.com/DodgeV/learning-programming/tree/master/books/python/%E5%8D%83%E9%94%8BPython%E5%9F%BA%E7%A1%80%E8%A7%86%E9%A2%91)
+- [全国计算机二级Python科目基础知识教程](https://www.bilibili.com/video/BV1ht41187Aa)&[真题操作题部分讲解](https://www.bilibili.com/video/BV1Vb411h7K8)&[对应资料](https://github.com/DodgeV/learning-programming/tree/master/%E4%BA%8C%E7%BA%A7)&[Python二级考试考纲笔记（2018全）](https://mubu.com/doc/1Bam_vCyQw)
+- [python老男孩linux运维](https://www.bilibili.com/video/BV1k54y1m7BC)&[对应资料](https://github.com/DodgeV/learning-programming/tree/master/books/python/python%E8%80%81%E7%94%B7%E5%AD%A9linux%E8%BF%90%E7%BB%B4)
+- [python网络程序开发-炼数成金-2012](https://www.bilibili.com/video/BV1D54y1U7dM)&[对应资料](https://github.com/DodgeV/learning-programming/tree/master/books/python/python%E7%BD%91%E7%BB%9C%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91-%E7%82%BC%E6%95%B0%E6%88%90%E9%87%91-2012)
+- [Python网络爬虫与信息提取--北理工](http://www.icourse163.org/learn/BIT-1001870001)
+- [Python科学计算三维可视化--北理工](http://www.icourse163.org/learn/BIT-1001871001)
+- [Python机器学习--北理工](http://www.icourse163.org/learn/BIT-1001872001)
+- [用Python玩转数据--南京大学](http://www.icourse163.org/learn/NJU-1001571005)
+- [零基础学习PythonCAP--北理工](http://www.icourse163.org/learn/BIT-1002058035)
+- [python公开课](https://www.bilibili.com/video/BV11K4y1S7MM)&[对应资料](https://github.com/DodgeV/learning-programming/tree/master/books/python/python%E5%85%AC%E5%BC%80%E8%AF%BE)
+- [传智播客day25网络爬虫](https://www.bilibili.com/video/av84404200?p=86)&[如果失效用这个](https://www.bilibili.com/video/av50730537)
+- [传智播客python就业班](https://www.bilibili.com/video/BV1uJ411Y7uH?p=115) 或 [python2018就业班全集（前半部分）](https://www.bilibili.com/video/BV1b4411b74E?p=116)&[Python2018就业班（后半部分）](https://www.bilibili.com/video/av53525697/)
+
+# demo
+
+- [GitHub Top 45：新手入门 Python，值得推荐的优质资源！](https://mp.weixin.qq.com/s/fLZdDQE_trhKRLyQKoORzg)
+- [You-are-Pythonista python projects](https://github.com/MiracleYoung/You-are-Pythonista)
+- [Some interesting Python crawlers and data analysis project](https://github.com/Alfred1984/interesting-python)
+- [five Practice Python Projects](https://github.com/learnbyexample/practice_python_projects)
+- [Scrapy爬虫实战](https://github.com/Jaysong2012/tutorial)
+- [大众点评评论文本挖掘项目](https://github.com/py-bin/dianping_textmining)
+- [Super Mario Bros made with Python and Pygame](https://github.com/justinmeister/Mario-Level-1)
+- [链家二手房租房在线数据，存量房交易服务平台数据，详细数据分析教程](https://github.com/XuefengHuang/lianjia-scrawler)
+- [Zipline, a Pythonic Algorithmic Trading Library](https://github.com/quantopian/zipline)
+- [阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构](https://github.com/bbfamily/abu)
+- [Flask 10天开发一个网站 - 知乎](https://zhuanlan.zhihu.com/p/33038507)
