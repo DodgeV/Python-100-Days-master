@@ -8,31 +8,31 @@
 }
 '''
 
-import xlwt
-
-with open('city.txt', 'r', encoding='utf-8') as f:
-    data = f.read()
-    _city = eval(data)
-    city = list()
-    for i in range(1, 4):
-        info = _city[str(i)]
-        city.append(i)
-        city.append(info)
-    row = len(city)//len(_city)
-
-
-def horz_left(x, y, data):
-    algnt = xlwt.Alignment()
-    algnt.horz = xlwt.Alignment.HORZ_LEFT
-    style = xlwt.XFStyle()
-    style.alignment = algnt
-    table.write(x, y, data, style)
-
-file = xlwt.Workbook()
-table = file.add_sheet('city')
-for i in range(len(city)):
-    if not i % row:
-        horz_left(i//row, i % row, city[i])
-    else:
-        table.write(i // row, i % row, city[i])
+import xlwt  
+  
+# 读取并解析数据  
+with open('city.txt', 'r', encoding='utf-8') as f:  
+    data = f.read()  
+    city_data = eval(data)  # 注意：使用eval处理不信任的输入是不安全的  
+  
+# 准备Excel工作簿和工作表  
+file = xlwt.Workbook()  
+table = file.add_sheet('city')  
+  
+# 定义左对齐样式  
+style = xlwt.XFStyle()  
+alignment = xlwt.Alignment()  
+alignment.horz = xlwt.Alignment.HORZ_LEFT  
+style.alignment = alignment  
+  
+# 写入数据  
+row = 0  # 初始化行号  
+for key, value in city_data.items():  
+    # 写入城市编号（作为字符串，因为键是字符串）  
+    table.write(row, 0, key, style)  
+    # 写入城市名  
+    table.write(row, 1, value, style)  
+    row += 1  # 移动到下一行  
+  
+# 保存Excel文件  
 file.save('city.xls')
