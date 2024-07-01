@@ -7,32 +7,27 @@
 }
 '''
 
-import xlwt
-
-with open('student.txt', 'r', encoding='utf-8') as f:
-    data = f.read()
-    _student = eval(data)
-    student = list()
-    for i in range(1, 4):
-        info = _student[str(i)]
-        student.append(i)
-        student.extend(info)
-    row = len(_student)/len(student)
-
-
-def horz_left(x, y, data):
-    algnt = xlwt.Alignment()
-    algnt.horz = xlwt.Alignment.HORZ_LEFT
-    style = xlwt.XFStyle()
-    style.alignment = algnt
-    table.write(x, y, data, style)
-
-file = xlwt.Workbook()
-table = file.add_sheet('student')
-for i in range(len(student)):
-    if not i % 5:
-        horz_left(i//5, i % 5, student[i])
-    else:
-        table.write(i//5, i % 5, student[i])
-
+import xlwt  
+import json  
+  
+# 读取数据  
+with open('student.txt', 'r', encoding='utf-8') as f:  
+    data = f.read()  
+    students = json.loads(data)  # 使用 json.loads() 替代 eval()  
+  
+# 创建 Excel 表格  
+file = xlwt.Workbook()  
+table = file.add_sheet('student')  
+  
+# 写入表头  
+headers = ['Name', 'ID', 'Score']  
+for col, header in enumerate(headers):  
+    table.write(0, col, header, xlwt.easyxf('align: left'))  
+  
+# 写入学生数据  
+for row, student in enumerate(students, start=1):  
+    for col, key in enumerate(headers):  
+        table.write(row, col, student.get(key, ''))  
+  
+# 保存 Excel 文件  
 file.save('student.xls')
